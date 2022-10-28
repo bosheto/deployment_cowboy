@@ -1,3 +1,4 @@
+import re
 from django.shortcuts import HttpResponse, render
 
 # Create your views here.
@@ -16,6 +17,10 @@ def run_test(request):
     test.append({
         'author': 'test complete'
     })
+    return home(request)
+
+def clear_console_output(request):
+    tests = []
     return home(request)
 
 def home(request):

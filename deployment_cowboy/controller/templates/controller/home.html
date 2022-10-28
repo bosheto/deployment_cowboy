@@ -18,12 +18,24 @@
 </head>
 <body>
     <h1>Dashboard</h1>
-    <a href="/about">About</a>
-    {% for post in posts %}
-    <h1>{{post.author}}</h1>
-    {%endfor %}
-    <a class="btn btn-build", href={% url 'build-jar-button' %}> Build Jar </a><br>
-    <a class="btn btn-test", href={% url 'test-jar-button' %}> Test Build </a>
+    <div class="d-flex">
+        <div class="sidebar">
+            <a class="btn btn-build", href={% url 'build-jar-button' %}> Build Jar </a>
+            <a class="btn btn-test", href={% url 'test-jar-button' %}> Test Build </a>
+            <a class="btn btn-test", href={% url 'clear-output-button' %}> Clear </a>
+        </div>
+        <div class="cmd-out"> 
+            <h2 class="cmd-title">Output</h2>
+            <div class = cmd-terminal>
+                <span>
+                {% for post in posts %}
+                {{post.author}}
+                {%endfor %}
+                </span>
+            </div>
+        </div>
+        
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
