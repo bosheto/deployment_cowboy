@@ -23,11 +23,11 @@ body{
     flex-direction: column;
     background-color: black;
     width: 50rem;
-    height: 60rem;
+    height: 20rem;
     color: orange;
 }
 .cmd-terminal{
-    height: 95%;
+    height: 17rem;
     overflow-y: scroll;
     overflow-x: hidden;
     white-space: pre-line;
