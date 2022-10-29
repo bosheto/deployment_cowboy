@@ -1,13 +1,14 @@
-import re
 from django.shortcuts import HttpResponse, render
-
+import subprocess
 # Create your views here.
 
 test = [
 
 ]
 
+
 def build_jar(request):
+    subprocess.Popen(["python", "gitlab_modules/artifact_downloader.py"])
     test.append({
         'author':'build complete',
     })
@@ -24,6 +25,7 @@ def clear_console_output(request):
     return home(request)
 
 def home(request):
+        
     context = {
         'posts': test,
     }
