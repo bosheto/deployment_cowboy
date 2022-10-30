@@ -1,0 +1,29 @@
+2022-10-30 18:58:48.489  INFO 11764 --- [           main] o.s.nativex.NativeListener               : AOT mode disabled
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-10-30 18:58:48.582  INFO 11764 --- [           main] c.w.p.w.WebProjectTelerikApplication     : Starting WebProjectTelerikApplication using Java 11.0.16 on boris-HP-Z640-Workstation with PID 11764 (/home/boris/PythonDev/deployment-cowboy/deployment_cowboy/WebProjectTelerik-0.8.0.jar started by boris in /home/boris/PythonDev/deployment-cowboy/deployment_cowboy)
+2022-10-30 18:58:48.583  INFO 11764 --- [           main] c.w.p.w.WebProjectTelerikApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-10-30 18:58:49.314  INFO 11764 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-30 18:58:49.329  INFO 11764 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-10-30 18:58:49.900  INFO 11764 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-30 18:58:49.913  INFO 11764 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-30 18:58:49.913  INFO 11764 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-30 18:58:49.993  INFO 11764 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-30 18:58:49.994  INFO 11764 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1353 ms
+2022-10-30 18:58:50.144  INFO 11764 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-30 18:58:50.382  INFO 11764 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-30 18:58:50.850  INFO 11764 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2022-10-30 18:58:51.690  INFO 11764 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-30 18:58:51.824  WARN 11764 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-30 18:58:52.207  INFO 11764 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-30 18:58:52.226  INFO 11764 --- [           main] c.w.p.w.WebProjectTelerikApplication     : Started WebProjectTelerikApplication in 4.108 seconds (JVM running for 4.647)
+2022-10-30 18:58:52.269  INFO 11764 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-30 18:58:52.269  INFO 11764 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-30 18:58:52.271  INFO 11764 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
